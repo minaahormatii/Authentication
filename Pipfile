@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+flask-marshmallow = "*"
+psycopg = "*"
+psycopg2 = "*"
+flask-sqlalchemy = "*"
+flask-bcrypt = "*"
+sqlalchemy = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.14"
